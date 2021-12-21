@@ -1,2 +1,4 @@
-package com.company.Assignment5;public class MatchingRule {
+package com.company.Assignment5;
+
+public class MatchingRule {
 }
