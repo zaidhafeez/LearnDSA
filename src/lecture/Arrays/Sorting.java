@@ -8,15 +8,38 @@ public class Sorting {
 
     public static void main(String[] args) {
 
-        int[] num = {1,2,3,5,4};
+        int[] num = {6,3,4,1,2};
 //        System.out.println(Arrays.toString(new int[][]{{1},{23},{4}}));
 
-        int[] sortedArray = bubbleSort(num);
+//        int[] sortedArray = bubbleSort(num);
 //        int[] sortedArray = selectionSort(num);
+        int[] sortedArray = insertionSort(num);
 
         System.out.println(Arrays.toString(sortedArray));
 
 
+    }
+
+
+    static int[] insertionSort(int[] num){
+
+
+        for (int i = 0; i <= num.length - 2; i++) {
+
+            for (int j = i + 1; j > 0; j--) {
+
+                if(num[j] < num[j - 1]){
+
+                    swap(num,j,j-1);
+
+                }
+                else break;
+
+            }
+
+        }
+
+        return num;
     }
 
     static int[] selectionSort(int[] num) {
