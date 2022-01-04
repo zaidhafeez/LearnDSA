@@ -10,12 +10,11 @@ public class Q7_EvenDigits {
         for (int element: arr) {
 
             int noOfdigitts = findevenNumberOfDigits(element);
-            System.out.println(findevenNumberOfDigits(element));
             if(noOfdigitts % 2 == 0) count++;
 
         }
 
-//        System.out.println(count);
+        System.out.println(count);
 
 
 
