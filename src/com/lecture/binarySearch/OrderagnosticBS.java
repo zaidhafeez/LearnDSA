@@ -9,10 +9,10 @@ public class OrderagnosticBS {
         int target = 12;
         int[] arr = {48,36,20,14,12};
 
-        System.out.println(isElementPresent(arr,target));
+        System.out.println(getIndex(arr,target));
     }
 
-    static int isElementPresent(int[] arr, int target) {
+    static int getIndex(int[] arr, int target) {
 
         int start = 0;
         int end = arr.length - 1;
