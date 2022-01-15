@@ -11,8 +11,8 @@ In Forwarding your learning you will get here:-
 - **Solution** of [**Assignments**](https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/tree/main/assignments) which are provided.
 
 > ### About Assignment Solution
-In his [**Assignments**]() , This Repository contains all the Important Questions **solution** which _enhance your learning_ and help to _build intution_
-and definitely help you ```HOW TO APPROACH A PROBLEM ?```
+In his [**Assignments**]() , This Repository contains all the Important Questions **solution** to _enhance your learning_ and help to _build intution_
+and ```HOW TO APPROACH A PROBLEM ?```
 
 > ### Know More About Assignment Solution
 [**Assignment Solution**](https://github.com/zaidhafeez/LearnDSA/tree/main/src/com/company) have Question Numbering which help you to reach the problem easily.
